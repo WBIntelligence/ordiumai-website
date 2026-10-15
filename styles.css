@@ -157,8 +157,23 @@ svg {
   color: var(--ink);
 }
 
-.brand-copy small,
-.footer-brand span,
+.brand-copy small {
+  margin-top: 3px;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--muted, #6b7466);
+}
+
+.footer-brand span {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--muted, #6b7466);
+}
+
 .en-copy {
   display: none;
 }
